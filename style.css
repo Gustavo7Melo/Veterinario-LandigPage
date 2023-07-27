@@ -375,7 +375,7 @@ i {
   margin-top: 5%;
 }
 
-.slides input {
+.slides input, .img-mobile {
   display: none;
 }
 
@@ -471,11 +471,17 @@ i {
 }
 
 @media screen and (max-width: 992px) {
+  .img-desktop {
+    display: none;
+  }
+  .img-mobile {
+    display: block;
+  }
   .slides {
     margin-top: 100px;
   }
   .navigation-auto {
-    margin-top: 23%;
+    margin-top: 8%;
   }
   .manual-navigation {
     display: none;
@@ -542,7 +548,7 @@ i {
 @media screen and (max-width: 768px) {
   #footer_content {
     height: 1100px;
-    margin-top: 0;
+    margin-top: 100px;
     grid-template-columns: repeat(1, 1fr);
     gap: 2rem;
   }
