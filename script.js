@@ -16,3 +16,8 @@ function proximaImg(){
 document.getElementById ('radio'+cont).checked = true
 }
 AOS.init();
+
+//Funcão voltar ao topo//
+function backToTop(){
+    document.getElementById('b1').scrollTop =  600;
+}
